@@ -28,45 +28,85 @@ Sistem, her bir girdi için tanımlı üyelik fonksiyonlarını kullanarak aşa�
    
 #### Girdi Değişkenleri ve Üyelik Fonksiyonları
 •	Toprak Nemi (0–100)
+
+
 o	gaussmf: Kuru (σ=10, c=0)
+
+
 o	gaussmf: AzNemli (σ=10, c=25)
+
+
 o	gaussmf: OrtaNemli (σ=15, c=55)
+
+
 o	gaussmf: ÇokNemli (σ≈14.57, c=100)
 
 
 •	Hava Sıcaklığı (0–50°C)
+
 o	gaussmf: Soğuk (σ=5, c=0)
+
+
 o	gaussmf: Ilık (σ≈8.53, c=18)
+
+
 o	gaussmf: Sıcak (σ≈7.50, c=35.1)
+
+
 o	gaussmf: ÇokSıcak (σ=5, c=50)
 
 
 •	Yağış (0–20 mm)
 o	gaussmf: Yok (σ=0.5, c=0)
+
+
 o	gaussmf: AzYağışlı (σ=2.75, c=3)
+
+
 o	gaussmf: OrtaYağışlı (σ≈2.65, c=10)
+
+
 o	gaussmf: ÇokYağışlı (σ=4, c=20)
 
 
 •	Su İhtiyacı (0–10)
+
 o	gaussmf: Düşük (σ=1, c=0)
+
+
 o	gaussmf: BirazDüşük (σ≈1.33, c=3.5)
+
+
 o	gaussmf: BirazYüksek (σ≈1.35, c=6.5)
+
+
 o	gaussmf: Yüksek (σ=1.5, c=10)
 
 
 •	Bağıl Nem (0–100)
+
 o	gaussmf: Kurak (σ=10, c=0)
+
+
 o	gaussmf: AzNemli (σ=15, c=30)
+
+
 o	gaussmf: Nemli (σ=20, c=60)
+
+
 o	gaussmf: ÇokNemli (σ=12.5, c=100)
 
 
 Çıktı Değişkeni: Sulama Süresi
 •	Aralık: 0–60 dakika
-•	gaussmf: Kısa (σ=7.5, c=0)
-•	gaussmf: Orta (σ=20, c=30)
-•	gaussmf: Uzun (σ=10, c=60)
+
+o	gaussmf: Kısa (σ=7.5, c=0)
+
+
+o	gaussmf: Orta (σ=20, c=30)
+
+
+o	gaussmf: Uzun (σ=10, c=60)
 
 
 #### Uygulama Detayları
