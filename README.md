@@ -9,14 +9,14 @@ Proje, tarımsal arazilerde toprak nemi, hava sıcaklığı, yağış miktarı, 
 #### Sistem Mimarisi
 
 
-Denetleyici Türü :	Mamdani FIS
-Girdi Sayısı :	5
-Çıktı Sayısı :	1
-Kural Sayısı :	1024
-And İşlemi : Min
-Or İşlemi : Max
-Çıkarım Metodu : Min
-Birleştirme Metodu : Max
+Denetleyici Türü :	Mamdani FIS,
+Girdi Sayısı :	5,
+Çıktı Sayısı :	1,
+Kural Sayısı :	1024,
+And İşlemi : Min,
+Or İşlemi : Max,
+Çıkarım Metodu : Min,
+Birleştirme Metodu : Max,
 Durulaştırma	: Centroid
 
 
