@@ -27,6 +27,8 @@ Sistem, her bir girdi için tanımlı üyelik fonksiyonlarını kullanarak aşa�
 
    
 #### Girdi Değişkenleri ve Üyelik Fonksiyonları
+
+
 •	Toprak Nemi (0–100)
 
 
@@ -44,6 +46,7 @@ o	gaussmf: ÇokNemli (σ≈14.57, c=100)
 
 •	Hava Sıcaklığı (0–50°C)
 
+
 o	gaussmf: Soğuk (σ=5, c=0)
 
 
@@ -57,6 +60,8 @@ o	gaussmf: ÇokSıcak (σ=5, c=50)
 
 
 •	Yağış (0–20 mm)
+
+
 o	gaussmf: Yok (σ=0.5, c=0)
 
 
@@ -70,6 +75,7 @@ o	gaussmf: ÇokYağışlı (σ=4, c=20)
 
 
 •	Su İhtiyacı (0–10)
+
 
 o	gaussmf: Düşük (σ=1, c=0)
 
@@ -85,6 +91,7 @@ o	gaussmf: Yüksek (σ=1.5, c=10)
 
 •	Bağıl Nem (0–100)
 
+
 o	gaussmf: Kurak (σ=10, c=0)
 
 
@@ -98,7 +105,10 @@ o	gaussmf: ÇokNemli (σ=12.5, c=100)
 
 
 Çıktı Değişkeni: Sulama Süresi
+
+
 •	Aralık: 0–60 dakika
+
 
 o	gaussmf: Kısa (σ=7.5, c=0)
 
